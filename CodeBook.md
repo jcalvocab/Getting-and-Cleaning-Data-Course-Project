@@ -40,22 +40,22 @@ R script called run_analysis.R that does the following:
  
 ### Steps of the script
 
-1. Check whether the required packages are installed. If they are not, install
-2. Load the required packages
-3. Load the activity and features labels.
-4. From features labels, select only the mean a standard deviation
-5. For each data set (train/test) there are tree files that contain the data to bind (where 'xxx' represent 'train' or 'test'):
+* Check whether the required packages are installed. If they are not, install
+* Load the required packages
+* Load the activity and features labels.
+* From features labels, select only the mean a standard deviation
+* For each data set (train/test) there are tree files that contain the data to bind (where 'xxx' represent 'train' or 'test'):
 
   * X_xxx.txt file
   * y_xxx.txt file
   * subject_xxx.txt file
-6. Create a function to bind this three data files to obtain the data frames of train and test data sets.
+* Create a function to bind this three data files to obtain the data frames of train and test data sets.
 
   + This function extract only the mean and std columns
   + This function set descriptive variable names
   + This data sets use descriptive activity names instead of activity id
-7. Merge the train and test data frames objects into a 'tidy_data' data frame object
-8. From the tidy data frame object (tidy_data), creates a second, independent tidy data set with the average of each variable for each activity and each subject:
+* Merge the train and test data frames objects into a 'tidy_data' data frame object
+* From the tidy data frame object (tidy_data), creates a second, independent tidy data set with the average of each variable for each activity and each subject:
 
   * Step 1 for second tidy data: Melt data. _melt()_ function treats column names as a variable as it collapses data into long format. We want to convert all features columns into a new measure var
         
