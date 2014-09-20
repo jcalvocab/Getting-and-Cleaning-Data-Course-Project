@@ -21,13 +21,13 @@ Content of the repo
 Instrucctions to run the code
 ============================
 
-1. In R, set the working directory to the directory containing the 'run_analysis.R' script
-2. Manually donwload the data set to the working directory from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-3. Unzip the zip file
-4. In R, execute the following code:
-```r
-source('run_analysis.R')
-run.analysis() 
-```
-5. The result will be a new file named 'tidy_mean.txt' in the working directory containing the tidy data.
+* In R, set the working directory to the directory containing the 'run_analysis.R' script
+* Manually donwload the data set to the working directory from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+* Unzip the zip file
+* In R, execute the following code:
+        ```r
+        source('run_analysis.R')
+        run.analysis() 
+        ```
+* The result will be a new file named 'tidy_mean.txt' in the working directory containing the tidy data.
 
