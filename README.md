@@ -25,9 +25,9 @@ Instrucctions to run the code
 * Manually donwload the data set to the working directory from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 * Unzip the zip file
 * In R, execute the following code:
-        ```r
-        source('run_analysis.R')
-        run.analysis() 
-        ```
+```r
+source('run_analysis.R')
+run.analysis() 
+```
 * The result will be a new file named 'tidy_mean.txt' in the working directory containing the tidy data.
 
